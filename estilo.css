@@ -1,0 +1,41 @@
+body{
+   background-color: blueviolet;
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+
+}
+p{font-size: 15px;
+  border: 7px solid rebeccapurple;
+  margin: 15px;
+  padding: 7px ;
+  flex-direction: row;
+  display: flex;
+
+
+}
+@media screen and (min-width: 400px) and (max-width: 700px){ 
+    body{flex-direction: column;}
+    
+}
+
+#miParrafo{
+    font-size: 80px;
+}
+
+.letraenana{
+    font-size: 5px !important;
+}
+
+h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+[name]{
+   font-size: 35px;
+   font-family: 'Times New Roman', Times, serif;
+   color: darkgreen;
+
+}
